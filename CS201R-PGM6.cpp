@@ -13,9 +13,9 @@ int main() {
 
     try {
         inList.exceptions(ifstream::failbit);
-        inList.open("mediaList2.txt");
+        inList.open("mediaList.txt");
         inCommands.exceptions(ifstream::failbit);
-        inCommands.open("mediaCommands2.txt");
+        inCommands.open("mediaCommands.txt");
         outFile.exceptions(ofstream::failbit);
         outFile.open("mediaReport.txt");
         outErr.exceptions(ofstream::failbit);
